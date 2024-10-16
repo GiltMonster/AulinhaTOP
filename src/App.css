@@ -1,0 +1,53 @@
+.user-container{
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.user-container img{
+    width: 450px;
+    height: 450px;
+    margin: 0 40px;
+    border: 10px dashed #9141ca;
+    border-radius: 20px;
+}
+
+.user-info-container{
+    width: 100%;
+}
+
+.user-info-container h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.user-info-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-info-content p{
+    font-size: 1.5rem;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+.female{
+    color:#d70fac;
+    font-weight: bold;
+}
+
+.male{
+    color:#0f66d7;
+    font-weight: bold;
+}

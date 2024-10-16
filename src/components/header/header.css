@@ -1,0 +1,24 @@
+.header-container {
+    background-color: #654496;
+    border-width: 0 0 1px 0; /* cima, direita, baixo, esquerda */
+    border-color: #363636;
+    border-style: solid;
+    padding: 0 20px; /*Y e X*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fbfbfbfb;
+    font-size: 1.5rem;
+}
+
+.itens-nav{
+    display: flex;
+    
+}
+
+.itens-nav li{
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
